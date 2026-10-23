@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <title>HTML Forms</title>
+</head>
+
+<body>
+
+  <h1>HTML Forms</h1>
+
+  <form action="" method="get">
+
+    <p>
+      <label for="txtSearch">Search for a song name and/or artist: *</label>
+      <input type="text" name="search" id="txtSearch" required>
+    </p>
+
+    <p>
+      <label for="numYear">Year Released:</label>
+      <input type="number" name="year" id="numYear" min="1900" max="2026" placeholder="2026">
+    </p>
+
+    <p>
+      <label for="chkSingle">Is Single?</label>
+      <input type="checkbox" name="isSingle" id="chkSingle">
+    </p>
+
+    <p>
+      <label for="selectLanguage">Song Language:</label>
+      <select name="language" id="selectLanguage">
+        <option value="">Select a Language</option>
+        <option value="English">English</option>
+        <option value="Spanish">Spanish</option>
+        <option value="French">French</option>
+        <option value="Chinese">Chinese</option>
+      </select>
+    </p>
+
+    <p>
+    <fieldset>
+      <legend>Song Genre:</legend>
+
+      <label for="rbRock">Rock</label>
+      <input type="radio" name="genre" id="rbRock" value="rock">
+
+      <label for="rbJazz">Jazz</label>
+      <input type="radio" name="genre" id="rbJazz" value="jazz">
+
+      <label for="rbClassical">Classical</label>
+      <input type="radio" name="genre" id="rbClassical" value="classical">
+    </fieldset>
+
+
+    </p>
+
+    <p>
+      <button>Find My Song</button>
+    </p>
+
+
+
+  </form>
+
+</body>
+
+</html>
