@@ -49,3 +49,51 @@ Make the words "Solar System" in bold.
 Make the word "Earth" in italics.
 
 ## Problem 7:
+
+Let's make another section of content after the paragraph.
+
+In it, add a headline with the text "Formation and evolution".
+
+Under the headline, add a paragraph tag with the following text:
+
+"The Solar System formed at least 4.568 billion years ago from the gravitational collapse of a region within a large molecular cloud. This initial cloud was likely several light-years across and probably birthed several stars."
+
+And a second paragraph with the text:
+
+"The Solar System remains in a relatively stable, slowly evolving state by following isolated, gravitationally bound orbits around the Sun."
+
+## Problem 8:
+
+Below the paragraphs, add a new headline that reads, "Orbital periods and velocities of the planets".
+
+Add a paragraph that reads:
+
+"The planets and other large objects in orbit around the Sun lie near the invariable plane of the Solar System, as does Earth's orbit, known as the ecliptic, and most closely the orbit of Jupiter, with an inclination to it of 0.3219°."
+
+## Problem 9:
+
+Recreate the table from the Wikipedia page, linked [here.](https://en.wikipedia.org/wiki/Solar_System#mwAmE)
+
+Image for additional reference:
+
+![Planets](images/planets-table.png)
+
+Add the deprecated attribute `border="1"` to add borders to the table.
+
+HINT: You will need to use both rowspan and colspan.
+
+## Problem 10:
+
+Divide up the content in the main tag into 3 sections, using section tags.
+
+## Problem 11:
+
+Add a footer tag, and in it, put a copy the nav element from the header.
+
+## Problem 12:
+
+In the footer, before the nav, add a link to the Wikipedia URL (https://en.wikipedia.org/wiki/Solar_System) with link text that reads:
+
+"Image and text from Wikipedia.org".
+
+Make the link open in a new tab.
